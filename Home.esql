@@ -23,6 +23,10 @@ thisis  one more testing file is added in faster branch
 SET OutputRoot.*[I] = InputRoot.*[I];
                         SET I = I + 1;
 	
+#one more sample is added in this code
+--------------------------------------
+second sample is added
+----------------------------------------
 CREATE PROCEDURE CopyEntireMessage() BEGIN
 		SET OutputRoot = InputRoot;
 	END;
