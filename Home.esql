@@ -16,7 +16,10 @@ CREATE COMPUTE MODULE test_flow_Compute
 		END WHILE;
 	END;
 
-	CREATE PROCEDURE CopyEntireMessage() BEGIN
+SET OutputRoot.*[I] = InputRoot.*[I];
+                        SET I = I + 1;
+	
+CREATE PROCEDURE CopyEntireMessage() BEGIN
 		SET OutputRoot = InputRoot;
 	END;
 END MODULE;:
