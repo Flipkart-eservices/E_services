@@ -19,9 +19,16 @@ CREATE COMPUTE MODULE test_flow_Compute
 SET OutputRoot.*[I] = InputRoot.*[I];
                         SET I = I + 1;
 	
+<<<<<<< HEAD
 #this is for testing branch merging
 
 
+=======
+#one more sample is added in this code
+--------------------------------------
+second sample is added
+----------------------------------------
+>>>>>>> slower
 CREATE PROCEDURE CopyEntireMessage() BEGIN
 		SET OutputRoot = InputRoot;
 	END;
